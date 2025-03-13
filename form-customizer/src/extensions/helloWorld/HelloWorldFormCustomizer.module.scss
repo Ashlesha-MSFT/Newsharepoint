@@ -1,0 +1,21 @@
+.helloWorld {
+  background-color: "[theme:white, default:#ffffff]";
+  color: "[theme:themePrimary, default:#0078d4]";
+  padding: 0.5rem;
+
+  .error {
+    color: red;
+  }
+  .basics {
+    color: aquamarine;
+    /* add your styles for basics here */
+  
+  }
+}
+
+
+.basics {
+  color: aquamarine;
+  /* add your styles for basics here */
+
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-legacy-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxLegacyTest/SpFxLegacyTestWebPart.js",
+          "manifest": "./src/webparts/spFxLegacyTest/SpFxLegacyTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxLegacyTestWebPartStrings": "lib/webparts/spFxLegacyTest/loc/{locale}.js"
+  }
+}

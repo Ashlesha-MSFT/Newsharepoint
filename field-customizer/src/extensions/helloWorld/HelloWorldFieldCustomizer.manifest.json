@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+  "id": "8d7089a8-5829-4a4f-bab3-aebe7c19282d",
+  "alias": "HelloWorldFieldCustomizer",
+  "componentType": "Extension",
+  "extensionType": "FieldCustomizer",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://m365x71180313.sharepoint.com/sites/62/Lists/Orders/AllItems.aspx"
+    ],
+    "entryModuleId": "./src/extensions/helloWorld/HelloWorldFieldCustomizer", 
+    "scriptResources": {
+      "helloWorldFieldCustomizer": {
+        "type": "localizedPath",
+        "defaultPath": "./dist/helloWorldFieldCustomizer.js"
+      }
+    }
+  }
+}

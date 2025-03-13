@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "sharepoint-12",
+    "libraryId": "b6e0ed6b-618c-4338-be7b-9d5927ff5f4d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sharepoint-12",
+    "solutionShortDescription": "sharepoint-12 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

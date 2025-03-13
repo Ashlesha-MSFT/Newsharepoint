@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "4f34d4c1-ab9e-4ca5-a858-b86db3e98820",
+  "alias": "ContextmenuCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMMAND_1": {
+      "title": { "default": "Command One" },
+      "iconImageUrl": "icons/request.png",
+      "type": "command"
+    },
+    "COMMAND_2": {
+      "title": { "default": "Command Two" },
+      "iconImageUrl": "icons/cancel.png",
+      "type": "command"
+    }
+  }
+}

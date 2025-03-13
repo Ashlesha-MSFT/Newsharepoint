@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "mobtest",
+    "libraryId": "d1156853-ddae-41ce-b3ae-651ccb06ebc6",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "mobtest",
+    "solutionShortDescription": "mobtest description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

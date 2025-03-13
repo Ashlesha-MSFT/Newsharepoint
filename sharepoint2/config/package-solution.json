@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-legacy-test-client-side-solution",
+    "id": "74560881-846a-4cea-b241-235eafec2ea2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFxLegacyTest description"
+      },
+      "longDescription": {
+        "default": "SPFxLegacyTest description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-legacy-test Feature",
+        "description": "The feature that activates elements of the sp-fx-legacy-test solution.",
+        "id": "7039ca07-d9e0-4a49-b0ac-236ece0da227",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-legacy-test.sppkg"
+  }
+}

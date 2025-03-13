@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://m365x71180313.sharepoint.com/sites/first/Lists/pasting%20list",
+      "customActions": {
+        "4f34d4c1-ab9e-4ca5-a858-b86db3e98820": {
+          "location": "ClientSideExtension.ListViewCommandSet.ContextMenu",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "contextmenu": {
+      "pageUrl": "https://m365x71180313.sharepoint.com/sites/first/Lists/pasting%20list",
+      "customActions": {
+        "4f34d4c1-ab9e-4ca5-a858-b86db3e98820": {
+          "location": "ClientSideExtension.ListViewCommandSet.ContextMenu",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

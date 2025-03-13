@@ -1,0 +1,38 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <!-- Lookup Columns -->
+    <Field
+      ID="{74a7180e-e13a-4987-a178-85a0df8cbc66}"
+      Name="TestlookupDel"
+      DisplayName="Lookup Test"
+      Type="Lookup"
+      List="Lists/TestListXYZ"
+      ShowField="Title"
+      Required="FALSE"
+      Indexed="TRUE"
+      Mult="FALSE"
+      IsRelationship="TRUE"
+      RelationshipDeleteBehavior="Cascade"
+      Group="Custom Column">
+    </Field>
+
+   <ListInstance
+        CustomSchema="schema_TestList.xml"
+        FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+        Title="Test List ABC"
+        Description="List to test"
+        TemplateType="100"
+        Hidden="FALSE"
+        OnQuickLaunch="FALSE"
+        Url="Lists/TestListABC">
+    </ListInstance>
+    
+     <ListInstance
+        FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+        Title="Test List XYZ"
+        Description="List to test"
+        TemplateType="100"
+        Hidden="FALSE"
+        OnQuickLaunch="FALSE"
+        Url="Lists/TestListXYZ">
+    </ListInstance>
+</Elements>

@@ -1,0 +1,59 @@
+<List xmlns:ows="Microsoft SharePoint" DisableAttachments="TRUE" EnableContentTypes="TRUE" FolderCreation="FALSE" VersioningEnabled="FALSE" BaseType="0" Direction="$Resources:Direction;" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes></ContentTypes>
+    <Fields>
+      <Field Name="LinkTitle" DisplayName="Name" Type="Text" />
+      <Field Name="Title" DisplayName="Name" Type="Text" Indexed="TRUE" />
+
+      <Field
+        ID="{74a7180e-e13a-4987-a178-85a0df8cbc66}"
+        Name="TestlookupDel"
+        DisplayName="Lookup Test"
+        Type="Lookup"
+        List="Lists/TestListXYZ"
+        ShowField="Title"
+        Required="FALSE"
+        Indexed="TRUE"
+        Mult="FALSE"
+        IsRelationship="TRUE"
+        RelationshipDeleteBehavior="Cascade">
+    </Field>
+
+      <Field
+        ID="{aafb9a5e-6276-4d5d-bd8b-d3b7fb6dbfd5}"
+        Name="LookupColumnListScope"
+        DisplayName="Lookup in List"
+        Type="Lookup"
+        List="Lists/TestListXYZ"
+		    ShowField="Title"
+        Required="FALSE"
+        Indexed="TRUE"
+        Mult="FALSE"
+        IsRelationship="TRUE"
+        RelationshipDeleteBehavior="Cascade"
+      />
+    </Fields>
+    <Views>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/images/generic.png" Url="AllItems.aspx">
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <Toolbar Type="Standard" />
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="TestlookupDel"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Id" Ascending='False'/>
+          </OrderBy>
+        </Query>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

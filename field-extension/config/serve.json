@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://m365x71180313.sharepoint.com/sites/first/Lists/Orders/AllItems.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "d93e604e-72d7-43c7-829c-0cc4b6038659",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://m365x71180313.sharepoint.com/sites/first/Lists/Orders/AllItems.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "d93e604e-72d7-43c7-829c-0cc4b6038659",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

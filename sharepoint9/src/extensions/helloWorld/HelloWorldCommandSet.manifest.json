@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "59e06d8e-3e9d-4f62-9518-5c33ad9e4e16",
+  "alias": "HelloWorldCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMMAND_ARCHIVE": {
+      "title": { "default": "COMMAND_ARCHIVE" },
+      "iconImageUrl": "./icons/request.png",
+      "type": "command"
+    }
+  }
+}
