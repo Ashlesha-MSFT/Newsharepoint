@@ -7,7 +7,7 @@
       "pageUrl": "https://m365x71180313.sharepoint.com/sites/first/Lists/fsobj/AllItems.aspx",
       "customActions": {
         "35545298-0a45-4635-99fb-2b1676356936": {
-          "location": "ClientSideExtension.ListViewCommandSet.ContextMenu",
+          "location": "ClientSideExtension.ListViewCommandSet",
           "properties": {
             "sampleTextOne": "One item is selected in the list",
             "sampleTextTwo": "This command is always visible."
@@ -20,7 +20,7 @@
 
       "customActions": {
         "35545298-0a45-4635-99fb-2b1676356936": {
-          "location": "ClientSideExtension.ListViewCommandSet.ContextMenu",
+          "location": "ClientSideExtension.ListViewCommandSet",
           "properties": {
             "sampleTextOne": "One item is selected in the list",
             "sampleTextTwo": "This command is always visible.",
